@@ -11,6 +11,6 @@ public class Main {
         System.out.println(stringJson);
 
         List<Employee> employees = Jsonparser.jsonToList(stringJson);
-        System.out.println(employees);
+        employees.forEach(System.out::print);
     }// main
-}
+}// class
